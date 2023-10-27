@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Bootstrap Carousel Example</title>
+    <!-- Include Bootstrap CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <!-- Write your code here -->
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Add slide indicators (optional) -->
+    <!-- You can add slide indicators here if needed -->
+
+    <div class="carousel-inner">
+        <!-- First Slide -->
+        <div class="carousel-item first-slide">
+            <!-- Slide content goes here -->
+        </div>
+
+        <!-- Second Slide -->
+        <div class="carousel-item second-slide">
+            <!-- Slide content goes here -->
+        </div>
+
+        <!-- Third Slide (Initial active slide) -->
+        <div class="carousel-item active third-slide">
+            <!-- Slide content goes here -->
+        </div>
+
+        <!-- Fourth Slide -->
+        <div class="carousel-item fourth-slide">
+            <!-- Slide content goes here -->
+        </div>
+
+        <!-- Fifth Slide -->
+        <div class="carousel-item fifth-slide">
+            <!-- Slide content goes here -->
+        </div>
+    </div>
+
+    <!-- Add left and right arrow icons -->
+    <a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
 </body>
- 
 </html>
